@@ -1,0 +1,29 @@
+{
+  "name": "my-node-api",
+  "version": "1.0.0",
+  "description": "A simple Node REST API for ...",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OpenTechConsult/my-node-api.git"
+  },
+  "keywords": [],
+  "author": "Elom Atsou Agboka <opentech.consult@gmail.com> (https://github.com/OpenTechConsult)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OpenTechConsult/my-node-api/issues"
+  },
+  "homepage": "https://github.com/OpenTechConsult/my-node-api#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
